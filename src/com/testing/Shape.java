@@ -6,6 +6,8 @@ public interface Shape {
 	static void circumferance() {
 		System.out.println("circumferance of the circle is 432");
 	}
+	static int number = 100;
+	String Shapes = "Oval Shape";
 
 }
 class Circle implements Shape{
@@ -26,6 +28,8 @@ class Circle implements Shape{
 		circle.area();
 		circle.perimeter();
 		Shape.circumferance();
+		System.out.println(Shape.number);
+		System.out.println(Shape.Shapes);
 	}
 	
 }
